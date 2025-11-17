@@ -1,8 +1,7 @@
-
 import { ArrowLeftIcon } from "lucide-react";
 import { useState } from "react";
 import toast from "react-hot-toast";
-import { Link, useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router-dom";
 import api from "../lib/axios";
 
 const CreatePage = () => {
@@ -31,10 +30,10 @@ const CreatePage = () => {
       navigate("/");
     } catch (error) {
       console.log("Error creating note", error);
-      if (error.response && error.response.status === 429) {
+      if (error.response.status === 429) {
         toast.error("Slow down! You're creating notes too fast", {
           duration: 4000,
-          icon: "💀",
+          icon: "",
         });
       } else {
         toast.error("Failed to create note");
