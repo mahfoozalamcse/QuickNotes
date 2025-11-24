@@ -1,5 +1,5 @@
 # Quick-Notes 
-# MERN Notes Application
+# Notes Application
 
 A professional Full-Stack Notes Management Application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). This project demonstrates real-world implementation of RESTful APIs, database integration, and scalable frontend architecture.
 
@@ -20,7 +20,7 @@ This application allows users to manage personal notes through a simple and resp
 - Responsive User Interface  
 - Clean & Scalable Folder Structure  
 - Error Handling & Status Code Implementation  
-- Beginner Friendly yet Industry Standard
+  
 
 ---
 
@@ -34,7 +34,7 @@ This application allows users to manage personal notes through a simple and resp
 - HTTP Status Codes  
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 **Frontend**
 - React.js  
@@ -72,6 +72,7 @@ This application allows users to manage personal notes through a simple and resp
   npm install
   npm start
 ### .env
+
   MONGO_URI=your_mongodb_connection_string
   UPSTASH_REDIS_URL=your_redis_url
   UPSTASH_REDIS_TOKEN=your_redis_token
